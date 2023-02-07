@@ -1,0 +1,18 @@
+.button{
+  width: 211px;
+  height: 68px;
+  outline: none;
+  color: white;
+  border: none;
+  background-color: black;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 300;
+  padding: 19px 68px;
+  transition: 400ms;
+
+  &:hover{
+    background-color: #a12c2c;
+    transition: 400ms;
+  }
+}
