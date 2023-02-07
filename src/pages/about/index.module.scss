@@ -1,7 +1,39 @@
 .aboutContainer{
   width: 75%;
-
-  margin: 0 auto;
-  border: 1px solid white;
+  margin: 22rem auto;
   max-width: 1400px;
+
+  .aboutMoreInfo {
+    padding: 2rem;
+    display: flex;
+    gap: 4rem;
+
+    .aboutMoreInfo__image {
+      width: 50%;
+
+      .img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .aboutMoreInfo__info {
+      width: 50%;
+    }
+  }
+  .aboutMoreInfo__technologies{
+    margin-top: 5rem;
+    .technologies__title{
+      text-align: center;
+    }
+    .technologies__list{
+      margin-left: 2rem;
+      font-size: 2vw;
+      color: white;
+      font-weight: 300;
+      li{
+        margin-top: 1.4rem  ;
+      }
+    }
+  }
 }

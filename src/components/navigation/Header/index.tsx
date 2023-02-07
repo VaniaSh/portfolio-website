@@ -1,4 +1,4 @@
-import React, {useEffect, useRef} from 'react';
+import React, {useRef} from 'react';
 import styles from './index.module.scss'
 import Link from "next/link";
 import {FaBars, FaTimes} from "react-icons/fa";
@@ -7,10 +7,9 @@ const Header = () => {
     const navRef = useRef(null);
 
     const showNavbar = () => {
-        useEffect(() => {
             const node = navRef.current as any
             node.classList.add('responsive_nav')
-        })
+
     };
 
     return (
